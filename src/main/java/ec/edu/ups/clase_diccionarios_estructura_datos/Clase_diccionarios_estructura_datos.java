@@ -55,9 +55,18 @@ public class Clase_diccionarios_estructura_datos {
         return diccionario.size();
     }
     
-    public static void obtenerTodasLasClaves(Map<String, Integer> edades){
-        for(String clave: edades.keySet()){
+    public static void obtenerTodasLasClaves(Map<String, Integer> diccionario){
+        for(String clave: diccionario.keySet()){
+            /*
+            if(valor == 32)
+            Agregamos pila
+            }
+            while(pila.isEmpty){
+                diccionario.remove(pila.pop());
+            }
+            */
             System.out.println(clave);
+            
         }
     }
 }
